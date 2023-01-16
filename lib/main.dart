@@ -1,21 +1,25 @@
 import 'package:flutter/material.dart';
-import 'LoginScreen.dart';
+import 'package:aplikasi_pertama/layouts/login.dart';
+import 'package:responsive_framework/responsive_framework.dart';
+import 'dart:io';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    MaterialApp(
+      builder: (context, child) => ResponsiveWrapper.builder(
+        ClampingScrollWrapper.builder(context, child!),
+        maxWidth: 1200,
+        minWidth: 450,
+        defaultScale: true,
+        breakpoints: [
+          const ResponsiveBreakpoint.resize(350, name: MOBILE),
+          const ResponsiveBreakpoint.autoScale(600, name: TABLET),
+          const ResponsiveBreakpoint.resize(800, name: DESKTOP),
+          const ResponsiveBreakpoint.autoScale(1700, name: "XL"),
+        ],
+      ),
+      debugShowCheckedModeBanner: false,
+      home: Login(),
+    ),
+  );
 }
-
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Aplikasi Pertama',
-      home: LoginScreen(),
-    );
-  }
-}
-
-
