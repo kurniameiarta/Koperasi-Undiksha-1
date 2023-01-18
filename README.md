@@ -28,3 +28,23 @@ Registrasi :
 Home :
 
 [![home.jpg](https://i.postimg.cc/mDyzp2tM/home.jpg)](https://postimg.cc/JDtzG834)
+
+
+Mutasi :
+
+[![mutasi.jpg](https://i.postimg.cc/Kv2FvrpZ/mutasi.jpg)](https://postimg.cc/HjBF65CK)
+
+
+Deposit :
+
+[![deposit.jpg](https://i.postimg.cc/4dckXmz7/deposit.jpg)](https://postimg.cc/CBw6NMrS)
+
+
+Penarikan :
+
+[![penarikan.jpg](https://i.postimg.cc/zf03T2MS/penarikan.jpg)](https://postimg.cc/mc1bsjTt)
+
+
+Scanner :
+
+[![barcode-scanner.jpg](https://i.postimg.cc/j2XsrDb6/barcode-scanner.jpg)](https://postimg.cc/30kMXJWW)
